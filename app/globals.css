@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+}
+
+/* TODO: move these to component files once we have more */
+@layer components {
+  .btn-primary {
+    @apply bg-emerald-600 hover:bg-emerald-700 text-white font-medium px-5 py-2.5 rounded-lg transition-colors duration-200;
+  }
+
+  .btn-outline {
+    @apply border border-slate-300 hover:border-emerald-500 hover:text-emerald-600 text-slate-600 font-medium px-5 py-2.5 rounded-lg transition-colors duration-200;
+  }
+
+  .tag-pill {
+    @apply text-xs bg-emerald-50 text-emerald-700 border border-emerald-200 px-2 py-0.5 rounded-full;
+  }
+
+  .input-base {
+    @apply w-full border border-slate-200 rounded-lg px-4 py-2.5 text-sm
+      focus:outline-none focus:ring-2 focus:ring-emerald-400 bg-white;
+  }
+}

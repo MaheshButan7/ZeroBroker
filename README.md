@@ -1,6 +1,7 @@
 # ZeroBroker
 
 A brokerage-free property listing platform for Pune. Browse rental and sale properties directly from owners — no middlemen, no extra fees.
+[Live on vercel](zero-broker-three.vercel.app)
 
 ## Tech Stack
 
